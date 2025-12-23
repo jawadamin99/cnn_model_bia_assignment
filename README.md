@@ -64,7 +64,9 @@ This will:
 
 🌐 Streamlit App
 Run the app to interactively test the model:
+```bash
 streamlit run app.py
+```
 
 
 Features:
@@ -73,12 +75,6 @@ Features:
 - Upload your own digit image (PNG/JPG)
 - Displays predicted digit and confidence percentage
 - Shows probability distribution as a bar chart
-
-📄 Deliverables
-- training.py → Training code for both models
-- app.py → Streamlit app code
-- report.pdf → Project report (with figures and screenshots)
-- custom_images/ → Any handwritten digit images used for testing
 
 🔮 Future Improvements
 - Train for more epochs
