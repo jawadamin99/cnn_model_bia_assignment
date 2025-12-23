@@ -65,17 +65,21 @@ This will:
 
 ### Training Curves
 ![Accuracy per Epoch](figures/accuracy_curves.png)
+
 *Figure 1 – Accuracy comparison between CNN and MLP.*
 
 ![Loss per Epoch](figures/loss_curves.png)
+
 *Figure 2 – Loss comparison between CNN and MLP.*
 
 ### Predictions on MNIST Test Images
 ![MNIST Predictions](figures/mnist_predictions.png)
+
 *Figure 3 – Model predictions on 5 random MNIST test samples.*
 
 ### Predictions on Custom Handwritten Digits
 ![Custom Predictions](figures/custom_predictions.png)
+
 *Figure 4 – Model predictions on uploaded handwritten digit images.*
 
 🌐 Streamlit App
