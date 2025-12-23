@@ -7,6 +7,7 @@ The best-performing model is deployed in a **Streamlit app** that allows users t
 ---
 
 ## 📂 Project Structure
+```
 mnist_project/
 ├─ model_definitions.py     # Contains CNN and MLP model classes
 ├─ training.py              # Training code, evaluation, saving best model
@@ -20,6 +21,7 @@ mnist_project/
 ├─ custom_predictions.png   # (Optional) Predictions on custom handwritten digits
 ├─ report.pdf               # Project report with figures and screenshots
 └─ custom_images/           # Folder for your handwritten digit PNG/JPG files
+```
 
 ---
 
