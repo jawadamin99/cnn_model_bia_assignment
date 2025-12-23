@@ -8,16 +8,18 @@ The best-performing model is deployed in a **Streamlit app** that allows users t
 
 ## 📂 Project Structure
 mnist_project/
-├─ model_definitions.py   # Contains CNN and MLP model classes
-├─ training.py            # Training code, evaluation, and saving best model
-├─ app.py                 # Streamlit app for interactive predictions
-├─ requirements.txt       # Dependencies
-├─ mnist_model.pth        # Saved best model weights (generated after training)
-├─ best_model_name.txt    # Stores which model performed best
-├─ accuracy_curves.png    # Accuracy plot (CNN vs MLP)
-├─ loss_curves.png        # Loss plot (CNN vs MLP)
-└─ custom_images/         # Optional folder for handwritten digit PNGs
-
+├─ model_definitions.py     # Contains CNN and MLP model classes
+├─ training.py              # Training code, evaluation, saving best model
+├─ app.py                   # Streamlit app for interactive predictions
+├─ requirements.txt         # Dependencies list
+├─ mnist_model.pth          # Saved best model weights (generated after training)
+├─ best_model_name.txt      # Stores which model performed best (CNN or MLP)
+├─ accuracy_curves.png      # Accuracy plot (CNN vs MLP)
+├─ loss_curves.png          # Loss plot (CNN vs MLP)
+├─ mnist_predictions.png    # (Optional) Predictions on random MNIST test images
+├─ custom_predictions.png   # (Optional) Predictions on custom handwritten digits
+├─ report.pdf               # Project report with figures and screenshots
+└─ custom_images/           # Folder for your handwritten digit PNG/JPG files
 
 ---
 
