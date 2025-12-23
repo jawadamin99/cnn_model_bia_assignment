@@ -32,6 +32,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/mnist-digit-classification.git
 cd mnist-digit-classification
 pip install -r requirements.txt
+```
 
 🧠 Models
 Model A – Convolutional Neural Network (CNN)
@@ -66,8 +67,6 @@ This will:
 Run the app to interactively test the model:
 ```bash
 streamlit run app.py
-```
-
 
 Features:
 - Loads the saved best model
