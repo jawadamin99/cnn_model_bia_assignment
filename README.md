@@ -29,8 +29,8 @@ mnist_project/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/mnist-digit-classification.git
-cd mnist-digit-classification
+git clone https://github.com/jawadamin99/cnn_model_bia_assignment.git
+cd cnn_model_bia_assignment
 pip install -r requirements.txt
 ```
 
@@ -58,10 +58,25 @@ This will:
 - Save the best model as mnist_model.pth
 - Save plots: accuracy_curves.png and loss_curves.png
 
-📊 Results
+## 📊 Results
 - CNN consistently outperforms MLP on MNIST.
 - Accuracy and loss curves are saved as PNGs.
 - Example predictions on test images and custom handwritten digits are displayed in the app.
+
+### Training Curves
+![Accuracy per Epoch](figures/accuracy_curves.png)
+*Figure 1 – Accuracy comparison between CNN and MLP.*
+
+![Loss per Epoch](figures/loss_curves.png)
+*Figure 2 – Loss comparison between CNN and MLP.*
+
+### Predictions on MNIST Test Images
+![MNIST Predictions](figures/mnist_predictions.png)
+*Figure 3 – Model predictions on 5 random MNIST test samples.*
+
+### Predictions on Custom Handwritten Digits
+![Custom Predictions](figures/accuracy_curves.png)
+*Figure 4 – Model predictions on uploaded handwritten digit images.*
 
 🌐 Streamlit App
 Run the app to interactively test the model:
