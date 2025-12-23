@@ -75,7 +75,7 @@ This will:
 *Figure 3 – Model predictions on 5 random MNIST test samples.*
 
 ### Predictions on Custom Handwritten Digits
-![Custom Predictions](figures/accuracy_curves.png)
+![Custom Predictions](figures/custom_predictions.png)
 *Figure 4 – Model predictions on uploaded handwritten digit images.*
 
 🌐 Streamlit App
