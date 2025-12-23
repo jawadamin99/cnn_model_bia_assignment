@@ -67,6 +67,7 @@ This will:
 Run the app to interactively test the model:
 ```bash
 streamlit run app.py
+```
 
 Features:
 - Loads the saved best model
@@ -81,6 +82,9 @@ Features:
 - Use learning rate scheduling
 - Deploy app online (e.g., Streamlit Cloud, Hugging Face Spaces)
 
-👨‍💻 Author
-Jawad Amin
-Assignment #5 – Deep Learning
+## 👨‍💻 Author
+**Jawad Amin**
+
+🌐 [Website](https://www.jawadamin.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/jawadamin99)  
+📧 info@jawadamin.com
