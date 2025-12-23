@@ -58,10 +58,25 @@ This will:
 - Save the best model as mnist_model.pth
 - Save plots: accuracy_curves.png and loss_curves.png
 
-📊 Results
+## 📊 Results
 - CNN consistently outperforms MLP on MNIST.
 - Accuracy and loss curves are saved as PNGs.
 - Example predictions on test images and custom handwritten digits are displayed in the app.
+
+### Training Curves
+![Accuracy per Epoch](accuracy_curves.png)
+*Figure 1 – Accuracy comparison between CNN and MLP.*
+
+![Loss per Epoch](loss_curves.png)
+*Figure 2 – Loss comparison between CNN and MLP.*
+
+### Predictions on MNIST Test Images
+![MNIST Predictions](mnist_predictions.png)
+*Figure 3 – Model predictions on 5 random MNIST test samples.*
+
+### Predictions on Custom Handwritten Digits
+![Custom Predictions](custom_predictions.png)
+*Figure 4 – Model predictions on uploaded handwritten digit images.*
 
 🌐 Streamlit App
 Run the app to interactively test the model:
