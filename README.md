@@ -34,7 +34,7 @@ cd cnn_model_bia_assignment
 pip install -r requirements.txt
 ```
 
-🧠 Models
+## 🧠 Models
 Model A – Convolutional Neural Network (CNN)
 - 2 convolutional layers (ReLU + MaxPooling)
 - Flatten
@@ -47,10 +47,11 @@ Model B – Multilayer Perceptron (MLP)
 - Dropout (25%)
 - Output: 10 classes (digits 0–9)
 
-🚀 Training
+## 🚀 Training
 Run the training script to train both models and save the best one:
+```bash
 python training.py
-
+```
 
 This will:
 - Train CNN and MLP for 5 epochs
@@ -82,20 +83,20 @@ This will:
 
 *Figure 4 – Model predictions on uploaded handwritten digit images.*
 
-🌐 Streamlit App
+## 🌐 Streamlit App
 Run the app to interactively test the model:
 ```bash
 streamlit run app.py
 ```
 
-Features:
+## Features:
 - Loads the saved best model
 - Tests on 5 random MNIST test images
 - Upload your own digit image (PNG/JPG)
 - Displays predicted digit and confidence percentage
 - Shows probability distribution as a bar chart
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 - Train for more epochs
 - Add data augmentation
 - Use learning rate scheduling
