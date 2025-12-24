@@ -46,8 +46,13 @@ upload_transform = transforms.Compose([
 ])
 
 # MNIST test dataset for demo predictions
+train_dataset = datasets.MNIST(root="./data", train=True, download=True, transform=dataset_transform)
+
 test_dataset = datasets.MNIST(root="./data", train=False, download=True, transform=dataset_transform)
 test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
+
+st.write("Training samples:", len(train_dataset))
+st.write("Test samples:", len(test_dataset))
 
 st.subheader("Try model on 5 random MNIST test images")
 indices = random.sample(range(len(test_dataset)), 5)
