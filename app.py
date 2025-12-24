@@ -54,6 +54,18 @@ test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 st.write("Training samples:", len(train_dataset))
 st.write("Test samples:", len(test_dataset))
 
+
+modelA = ModelA_CNN()
+modelB = ModelB_MLP()
+
+st.subheader("Model Architectures")
+
+st.write("Model A (CNN):")
+st.text(modelA)
+
+st.write("Model B (MLP):")
+st.text(modelB)
+
 st.subheader("Try model on 5 random MNIST test images")
 indices = random.sample(range(len(test_dataset)), 5)
 fig, axes = plt.subplots(1, 5, figsize=(12, 3))
